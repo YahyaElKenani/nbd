@@ -25,7 +25,7 @@ export default function Homepage() {
     return (
         <>
             <div className="container d-flex justify-content-center flex-column position-relative">
-                <span className="text-light text-center display-3 homepage-title droid-arabic-kufi fw-bold"> 🥳 نورتي يا قطتي </span>
+                <span className="text-light text-center display-3 homepage-title droid-arabic-kufi fw-bold"> 🥳 نورتي يا قطتي  كل سنة وانتي طيبة</span>
                 <BirthdayCake />
                 <Button 
                     variant="success" 
