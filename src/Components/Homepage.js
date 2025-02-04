@@ -7,6 +7,7 @@ export default function Homepage() {
     const [showMessage, setShowMessage] = useState(false);
     const audioRef = useRef(null); // Add ref for audio element
 
+    const audioPath = process.env.PUBLIC_URL ? `${process.env.PUBLIC_URL}/0204.MP3` : '/0204.MP3';
     useEffect(() => {
         setTimeout(() => {
             setShowBtn(true)
@@ -37,7 +38,7 @@ export default function Homepage() {
 
                 {/* Audio element */}
                 <audio ref={audioRef} preload="auto">
-                    <source src="/0204.MP3" type="audio/mpeg" />
+                    <source src={audioPath} type="audio/mpeg" />
                     Your browser does not support the audio element.
                 </audio>
 
