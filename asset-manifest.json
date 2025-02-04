@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/nbd/static/css/main.e3dfb30c.css",
+    "main.js": "/nbd/static/js/main.c60e6345.js",
+    "index.html": "/nbd/index.html",
+    "main.e3dfb30c.css.map": "/nbd/static/css/main.e3dfb30c.css.map",
+    "main.c60e6345.js.map": "/nbd/static/js/main.c60e6345.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e3dfb30c.css",
+    "static/js/main.c60e6345.js"
+  ]
+}
